@@ -13,7 +13,8 @@ public class Main {
         MyObject mo1 = new MyObject();
         mo1.i = 1;
 
-        MyObject mo2 = mo1.clone();
+        //MyObject mo2 = mo1;//результат 2
+        MyObject mo2 = mo1.clone();//результат 1
         mo2.i = 2;
 
         System.out.println(mo1.i);

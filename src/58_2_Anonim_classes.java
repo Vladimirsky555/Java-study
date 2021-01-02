@@ -8,8 +8,7 @@ import com.sun.security.jgss.GSSUtil;
 
 public class Main {
     public static void main (String[] args) throws Exception{
-        //Создаётся новый класс, наследуется от Popcorn, но с переопределённым
-        //методом doSomething
+
         Comparable comp = new Comparable(){
             @Override
             public int compareTo(Object o) {

@@ -10,7 +10,6 @@ public class Main {
         myThread.start();
         myThread.join();//main ждёт выполнения thread-0
         System.out.println("Name of Main thread: " + Thread.currentThread().getName());
-
     }
 }
 
@@ -26,7 +25,6 @@ class MyThread extends Thread{
             System.out.println(i);
         }
     }
-
 }
 
 

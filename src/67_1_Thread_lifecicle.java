@@ -4,9 +4,8 @@
 2) Runable - зарегистрирован и попадает в пул потоков
 3) Running - поток выполняется
 4) Waiting, Blocking, Sleeping - вызов метода wait и block. Далее в пул (Runable) и ожидает вызова.
- */
+5) Dead - поток сдох
 
-/*
 thread.start - помещает поток в пул, но не гарантирует очерёдность выполнения
 thtead.sleep - если нужно выполнить другие потоки ранее, например главный
 sleep - помещаем в try-catch, для возможности использования myThread.interrupt(); - чтобы
@@ -33,7 +32,6 @@ class MyThread extends Thread{
     public void run() {
         System.out.println("Name of other thread: " + Thread.currentThread().getName());
     }
-
 }
 
 
