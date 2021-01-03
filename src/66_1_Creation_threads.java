@@ -5,7 +5,6 @@ thread.start - помещает поток в пул, но не гарантир
 public class Main {
     public static void main(String[] args) throws Exception {
         MyThread myThread = new MyThread();
-
         myThread.start();
         System.out.println("Name of Main thread: " + Thread.currentThread().getName());
 
