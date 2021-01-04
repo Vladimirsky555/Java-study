@@ -1,7 +1,9 @@
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+
+/*
+
+*/
 
 public class Main {
     public static void main(String[] args) {
@@ -9,8 +11,8 @@ public class Main {
         JPanel jPanel = new JPanel();
         jFrame.add(jPanel);
     }
-    
-    
+
+
     static JFrame getFrame(){
         int h = 400; int w = 500;
         JFrame jFrame = new JFrame(){};
