@@ -6,9 +6,11 @@ import java.awt.*;
 */
 
 public class Main {
+	
+	    static JFrame jFrame = getFrame();
+        static JPanel jPanel = new JPanel();
+		
     public static void main(String[] args) {
-        JFrame jFrame = getFrame();
-        JPanel jPanel = new JPanel();
         jFrame.add(jPanel);
     }
 
