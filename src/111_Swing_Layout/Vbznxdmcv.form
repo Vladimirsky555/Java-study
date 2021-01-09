@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Vbznxdmcv">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="336d9" class="javax.swing.JCheckBox" binding="checkBox1" default-binding="true">
+        <constraints border-constraint="West"/>
+        <properties>
+          <text value="CheckBox"/>
+        </properties>
+      </component>
+      <component id="62892" class="javax.swing.JButton" binding="button1" default-binding="true">
+        <constraints border-constraint="North"/>
+        <properties>
+          <text value="Button"/>
+        </properties>
+      </component>
+      <component id="98c86" class="javax.swing.JButton" binding="button2" default-binding="true">
+        <constraints border-constraint="South"/>
+        <properties>
+          <text value="Button"/>
+        </properties>
+      </component>
+      <component id="6f8c0" class="javax.swing.JButton" binding="button3" default-binding="true">
+        <constraints border-constraint="East"/>
+        <properties>
+          <text value="Button"/>
+        </properties>
+      </component>
+      <component id="65639" class="javax.swing.JTextPane" binding="textPane1" default-binding="true">
+        <constraints border-constraint="Center"/>
+        <properties/>
+      </component>
+    </children>
+  </grid>
+</form>
